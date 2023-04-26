@@ -1,9 +1,5 @@
-from pathlib import Path
-
-import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import config
 
 
 class ScrapTVShowsService:
@@ -57,4 +53,3 @@ class ScrapTVShowsService:
 #     df = pd.DataFrame.from_dict(top_tvshows)
 #     output_file_path = Path(config.basedir) / 'shows.csv'
 #     df.to_csv(output_file_path)
-
